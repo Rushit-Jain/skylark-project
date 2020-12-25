@@ -1,38 +1,172 @@
-.App {
-  text-align: center;
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer{
+    font-family:"Raleway-Medium";
+    /*background-color: #D1C4E9;*/
+    background-image: url('./BW\ Skylark3.png');
+    background-size: cover;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+    color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.addressTag{
+    color: #ffffff;
+}
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background-image: url('./BW\ Skylark.png');
+    /*background: #9575CD ;*/
+    background-size: cover;
+    font-family:"Raleway-Medium";
+    color:floralwhite;
+    font-size: large;
 }
 
-.App-link {
-  color: #61dafb;
+.home{
+    
+    /*background-color: rgba(24, 154, 220, 0.85);*/
+    /*background-image: radial-gradient(farthest-corner at 50% 105%,#f6626e,#c2a293, #17b5b4 );*/
+    background-image: url('BG7.png');
+    color:white;
+    background-size:cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.team {
+    text-align: center;   
+}
+
+.team img {
+    align-content: center;
+    /*border:solid 2.5px black;*/ 
+    /*height: 60%;
+    width: 60%;*/
+}
+.wrapR {
+    float: left;   
+    margin: 30px 12px 30px 4px;   
+}
+
+.wrapM {
+    float:right;
+    margin: 30px 4px 3px 12px;
+}
+
+.homeDiv{
+    /*background: rgba(0,0,0,0.85);*/
+    background-image: url('BG_HOME.jpeg');
+    background-size:cover;
+    font-family:"Raleway-Medium";
+    /*background: rgb(33, 150, 243);*/
+    color:black;
+    padding: 50px;
+    text-align:justify;
+}
+
+.accordioncustom{
+    background-color: transparent;
+    height:50px;
+    padding-top:13px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+}
+
+.card{
+    padding:0px;
+}
+
+.card-header{
+    width: 100%;
+    background-color: purple;
+}
+
+.timeline {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.card-head-contact {
+    background-color:#563d7c;
+}
+
+.timeDiv {
+    background-image: url('./BG\ Timeline1.jpg');
+    /*background-image: url('BG_HOME.jpeg');*/
+    /*background-image: url('BG7.png');*/
+    padding: 100px;
+    background-size: contain;
+}
+@media(max-width:992px){
+    .timeDiv {
+        background-image: url('./BG\ Timeline2.png');
+        /*background-image: url('BG_HOME.jpeg');*/
+        /*background-image: url('BG7.png');*/
+        padding: 100px;
+        background-position:center;
+        background-size: cover;
+    }
+}
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+.navbar-dark {
+     /*background: rgba(255, 184, 77,0.3);*/
+     /*background-image: linear-gradient(to right, rgba(255,0,0,0.5), rgba(153,0,255,0.5));*/
+     /*background-image: linear-gradient(to right, rgba(255,0,0,0.75), rgba(102,0,204,0.6));*/
+     background: rgba(0,0,0,0.5)
+}
+
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
+}
+a {
+    color:#00e6e6;
+}
+
+a:hover {
+    color:antiquewhite;
+}
+
+.fa-pad {
+    padding-left:50px;
+}
+
+.blockquote{
+    font-family:"Raleway-MediumItalic";
+}
+
+.clstext {
+    display:inline-block;
 }
