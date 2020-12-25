@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/skylark-project/static/css/main.11a0bf9d.chunk.css",
+    "main.js": "/skylark-project/static/js/main.b322e9a3.chunk.js",
+    "main.js.map": "/skylark-project/static/js/main.b322e9a3.chunk.js.map",
+    "runtime-main.js": "/skylark-project/static/js/runtime-main.68cf147c.js",
+    "runtime-main.js.map": "/skylark-project/static/js/runtime-main.68cf147c.js.map",
+    "static/css/2.81c1ac21.chunk.css": "/skylark-project/static/css/2.81c1ac21.chunk.css",
+    "static/js/2.4b8b9305.chunk.js": "/skylark-project/static/js/2.4b8b9305.chunk.js",
+    "static/js/2.4b8b9305.chunk.js.map": "/skylark-project/static/js/2.4b8b9305.chunk.js.map",
+    "index.html": "/skylark-project/index.html",
+    "precache-manifest.e0e6a53ba3cb87840d3844e618e54c0c.js": "/skylark-project/precache-manifest.e0e6a53ba3cb87840d3844e618e54c0c.js",
+    "service-worker.js": "/skylark-project/service-worker.js",
+    "static/css/2.81c1ac21.chunk.css.map": "/skylark-project/static/css/2.81c1ac21.chunk.css.map",
+    "static/css/main.11a0bf9d.chunk.css.map": "/skylark-project/static/css/main.11a0bf9d.chunk.css.map",
+    "static/js/2.4b8b9305.chunk.js.LICENSE.txt": "/skylark-project/static/js/2.4b8b9305.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/skylark-project/static/media/BW Skylark3.03a6fc5e.png",
+    "static/media/index.css": "/skylark-project/static/media/Raleway-MediumItalic.a55ff2cd.ttf",
+    "static/media/font-awesome.min.css": "/skylark-project/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68cf147c.js",
+    "static/css/2.81c1ac21.chunk.css",
+    "static/js/2.4b8b9305.chunk.js",
+    "static/css/main.11a0bf9d.chunk.css",
+    "static/js/main.b322e9a3.chunk.js"
+  ]
+}
